@@ -1,7 +1,12 @@
 #CloudIMG {
     height: 256px;
     width: 208px;
+    position: relative;
     float: right;
-    margin-left: 25px;
+    
+}
+
+.cloud {
+    display: inline-block;
 }
 

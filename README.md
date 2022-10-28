@@ -1,2 +1,2 @@
 # formativeweek4
-A collection of pages about the images of Computer Science.
+A collection of pages about the impacts of Computer Science.

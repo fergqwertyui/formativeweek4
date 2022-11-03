@@ -1,8 +1,24 @@
-body{
-    background-image: url(https://imgs.search.brave.com/ChME6wkm62fzaJToGIXuFW3kNCShYxjqeHOFeW_4lDE/rs:fit:1200:1200:1/g:ce/aHR0cDovL2JnZm9u/cy5jb20vdXBsb2Fk/L3dvb2QlMjBfdGV4/dHVyZTMxODEuanBn);
 
-
+/* Taken from codepen https://codepen.io/P1N2O/pen/pyBNzX */
+body {
+	background: linear-gradient(-45deg, hwb(110 14% 8%), #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+	height: 100vh;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 .contentContainer{
     background-color: white;

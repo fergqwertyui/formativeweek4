@@ -1,9 +1,9 @@
 
 /* Taken from codepen https://codepen.io/P1N2O/pen/pyBNzX */
 body {
-	background: linear-gradient(-45deg, hwb(110 14% 8%), #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, #2a6dff, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-	animation: gradient 3s ease infinite;
+	animation: gradient 5s ease infinite;
 	height: 100vh;
 }
 
@@ -23,4 +23,8 @@ body {
 .contentContainer{
     background-color: white;
     border-radius: 10px;
+		display: flex;
+		justify-content: center;
+		max-width: 90%;
+		margin-inline: auto;
 }

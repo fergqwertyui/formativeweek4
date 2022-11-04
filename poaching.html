@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impacts of computer science in poaching</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom2.css">
+
   </head>
   <body>
     <!-- NAVBAR, format taken from https://getbootstrap.com/docs/5.0/components/navbar/ -->
@@ -34,10 +36,11 @@
         </div>
       </nav>
     
-    <div class="row mx-lg-5 px-lg-5 mx-sm-2 px-sm-2">
+    <br>
+    <div class="contentContainer row mx-lg-5 px-lg-5 mx-sm-2 px-sm-2">
 
-      <h1>Algorithm used for deterring poachers</h1>
       <div class="col-lg-8 text-align-start">
+        <h1>Algorithm used for deterring poachers</h1>
         <div class="mx-4">
           Drones fly over parks in South Africa, they use infrared camera's and an AI detection system to detect poachers, notifying nearby rangers and more importantly, flashing lights to scare off the poachers, if poachers are present.
         </div>
@@ -54,7 +57,10 @@
           The simplified idea is that when A drone sees a poacher and a ranger nearby, it will signal the alarm as the ranger is likely to stop the poacher, but if there is no ranger nearby, it may or may not signal, due to the chance of a false negative when there is a ranger nearby. Because of the chance of a false negative, it will also sound the alarm when it sees nothing. The main idea is so that rangers know if the poachers have been spotted, but the poachers do not. This helps deter poachers keeping endangered species safer than they were without this technology.
         </div>
       </div>
-      <img src="./assets/imgs/poachingDrone.jpg" alt = "A drone flying over the South African wilderness" width="700">
+    </div>
+    <br>
+    <div class="contentContainer mx-5">
+      <img src="./assets/imgs/poachingDrone.jpg" alt = "A drone flying over the South African wilderness" class="mt-3 mb-3" style="border-radius: 7px">
     </div>
     
 	<script src="/assets/js/bootstrap.min.js"></script>
